@@ -177,9 +177,9 @@ function sendToChatGPT(message) {
   };
 
   const headers = {
-    Authorization: 'Bearer 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',
+    Authorization: 'Bearer ',
   };
-
+// phone 
   axios
     .post('https://api.openai.com/v1/chat/completions', body, {
       headers: headers,
